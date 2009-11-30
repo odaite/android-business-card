@@ -53,7 +53,7 @@ public abstract class ContactAccessor {
              */
             @SuppressWarnings("deprecation")
             int sdkVersion = Integer.parseInt(Build.VERSION.SDK);       // Cupcake style
-            if (sdkVersion >= Build.VERSION_CODES.ECLAIR) {
+            if (sdkVersion < Build.VERSION_CODES.ECLAIR) {
                 className = "com.example.android.businesscard.ContactAccessorSdk3_4";
             } else {
                 className = "com.example.android.businesscard.ContactAccessorSdk5";
