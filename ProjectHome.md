@@ -1,0 +1,1 @@
+This could be used as an example of how to write an application that uses the legacy Contacts API if it runs on Cupcake/Donut and new Contacts API if it runs on Eclair.
